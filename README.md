@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+1. Project Title: Product Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Description: Product Management Application displays the product which were created by user. 
+.   In main page all products are displayed .
+.   It consits "add product" button to create the product and search input field to search the products based on product name.
+.    Also consist of dropdown to filter the products based on category. 
+.    And Reset button to reset the application.
 
-## Available Scripts
+    when we click on "Add Product" button it opens the modal it consits of required fields to create the product.
+    Name input field to enter the name of the product and description input field to enter the description about the product and one dropdown box used for select the which category of the product and price input field to enter the cost of the prodcut.
 
-In the project directory, you can run:
+    For all those input fields validation also given with proper naming. After creating the product it displayed in the main page.
+    Also it contains edit and delete buttons to edit the perticular product and delete the perticular product. 
 
-### `npm start`
+    Localstorage used for store the data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Search functionaly added to search the perticular product based on the product name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    filter function added to filter the product based on category of product.
 
-### `npm test`
+    React Context Api is used for state management to use state whereever we want.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Overview of File / Folder Structure and libraries used: I created one folder name "src" . In the src folder , created different files which are useful to application.
+For state managemet React context Api used to store the data of application. 
+ProductListPage file is used for dispaly the products and AddProductPage file is used for create the product with multiple input and dropdowns. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+libraries :
+React-router-dom: which is used for navigate to one page to another page
+antd: for flexible theme customisation
+react-highlight-words: React component to highlight words within larger body of text
